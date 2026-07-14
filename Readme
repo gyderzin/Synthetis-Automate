@@ -1,0 +1,23 @@
+# Synthetis
+
+Sistema de geração automática de relatórios.
+
+## Requisitos
+
+Docker Desktop
+
+## Executar
+
+docker compose up --build
+
+Frontend
+
+http://localhost:5173
+
+Backend
+
+http://localhost:5045/swagger
+
+Banco
+
+localhost:3307
