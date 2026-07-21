@@ -1,0 +1,60 @@
+services:
+
+  mysql:
+    image: mysql:8.0
+
+    container_name: synthetis-mysql
+
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: automacao_db
+
+    expose:
+      - "3306"
+
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql:/docker-entrypoint-initdb.d
+
+    restart: unless-stopped
+
+
+  api:
+    build:
+      context: ./BackEnd_Synthetis
+
+    container_name: synthetis-api
+
+    expose:
+      - "8080"
+
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "server=mysql;port=3306;database=automacao_db;user=root;password=root"
+
+    volumes:
+      - ./relatorios:/relatorios
+
+    depends_on:
+      - mysql
+
+    restart: unless-stopped
+
+
+  frontend:
+    build:
+      context: "./synthetis_automate - v1"
+
+    container_name: synthetis-frontend
+
+    ports:
+      - "80:80"
+
+    depends_on:
+      - api
+
+    restart: unless-stopped
+
+
+volumes:
+  mysql_data:

@@ -1,0 +1,6 @@
+@BackEnd_Synthetis_HostAddress = http://localhost:5045
+
+GET {{BackEnd_Synthetis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

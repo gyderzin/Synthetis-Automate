@@ -1,0 +1,17 @@
+bin/
+obj/
+
+.vs/
+.vscode/
+
+.git/
+.gitignore
+
+Dockerfile
+
+README.md
+
+**/*.user
+**/*.suo
+
+node_modules/

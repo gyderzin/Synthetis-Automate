@@ -1,0 +1,11 @@
+storage/relatorios/*
+!storage/relatorios/.gitkeep
+
+mysql_data
+
+bin
+obj
+
+node_modules
+
+dist
