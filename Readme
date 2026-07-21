@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Synthetis
 
 Sistema de geração automática de relatórios.
@@ -21,28 +20,4 @@ http://localhost:5045/swagger
 
 Banco
 
-=======
-# Synthetis
-
-Sistema de geração automática de relatórios.
-
-## Requisitos
-
-Docker Desktop
-
-## Executar
-
-docker compose up --build
-
-Frontend
-
-http://localhost:5173
-
-Backend
-
-http://localhost:5045/swagger
-
-Banco
-
->>>>>>> c7d2b61b066fb0d744f59c225dac19d723052154
 localhost:3307

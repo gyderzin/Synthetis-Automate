@@ -273,7 +273,7 @@
         <v-card-title class="text-center">
           Vamos pra frente que o dia fácil foi ontem!
         </v-card-title>
-        <v-img src="/olivan.jpeg" height="75vh"></v-img>
+        <v-img src="/public/olivan.jpeg" height="75vh"></v-img>
         <v-card-actions>
           <v-row class="my-1" style="width:100%">
             <v-col class="mx-1 my-0 py-0">

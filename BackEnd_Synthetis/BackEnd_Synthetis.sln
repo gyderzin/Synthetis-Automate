@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
@@ -23,29 +22,3 @@ Global
 		SolutionGuid = {4283D10A-C440-46FD-9584-84E935948E20}
 	EndGlobalSection
 EndGlobal
-=======
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd_Synthetis", "BackEnd_Synthetis.csproj", "{CEC05F33-982A-9F1A-6DC0-E0DB3CC012B5}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CEC05F33-982A-9F1A-6DC0-E0DB3CC012B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEC05F33-982A-9F1A-6DC0-E0DB3CC012B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEC05F33-982A-9F1A-6DC0-E0DB3CC012B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEC05F33-982A-9F1A-6DC0-E0DB3CC012B5}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4283D10A-C440-46FD-9584-84E935948E20}
-	EndGlobalSection
-EndGlobal
->>>>>>> c7d2b61b066fb0d744f59c225dac19d723052154

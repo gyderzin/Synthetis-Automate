@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 @BackEnd_Synthetis_HostAddress = http://localhost:5045
 
 GET {{BackEnd_Synthetis_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
-=======
-@BackEnd_Synthetis_HostAddress = http://localhost:5045
-
-GET {{BackEnd_Synthetis_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
->>>>>>> c7d2b61b066fb0d744f59c225dac19d723052154
